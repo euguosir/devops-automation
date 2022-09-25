@@ -14,12 +14,12 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: guosht/devops-integration # Image that will be used to containers in the cluster
+          image: devops-integration # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
       imagePullSecrets: # The docker hub secret that created in the cluster to login repo 
-        - name: mydockerhub
+        - name: myharbor
 
 ---
 
