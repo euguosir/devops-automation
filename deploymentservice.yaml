@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: 192.168.203.129:8088/cicd/devops-integration:v1 # Image that will be used to containers in the cluster
+          image: 192.168.203.129:8088/cicd/devops-integration:${version} # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
