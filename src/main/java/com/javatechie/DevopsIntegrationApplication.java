@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return "welcome : ) release branch";
+		return "welcome test";
 	}
 
 	public static void main(String[] args) {
