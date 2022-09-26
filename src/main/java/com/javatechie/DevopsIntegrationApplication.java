@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return "welcome : )";
+		return "welcome : ) main branch";
 	}
 
 	public static void main(String[] args) {
