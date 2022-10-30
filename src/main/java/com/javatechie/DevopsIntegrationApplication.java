@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return "version v1.0.1";
+		return "version v1.0.2";
 	}
 
 	public static void main(String[] args) {
